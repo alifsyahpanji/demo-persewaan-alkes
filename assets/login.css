@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(90deg, rgba(142, 45, 226, 1) 50%, rgba(74, 0, 224, 1) 100%);
+}
+
+.container-vh {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-login {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.deskripsi-box-login {
+    font-size: 15px;
+    color: #08203c;
+    margin-top: 20px;
+}
+
+.label-input-pass {
+    font-size: 17px;
+    font-weight: 700;
+    color: #8E2DE2;
+    margin-top: 40px;
+}
+
+.btn-login {
+    background-color: #8E2DE2;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+}
+
+/* Admin */
+
+nav {
+    background-color: rgb(0, 115, 255);
+    width: 80px;
+}
+
+
+@media only screen and (orientation: landscape) {
+    .title {
+        width: 700px;
+        font-size: 35px;
+    }
+
+    .box-login {
+        width: 600px;
+        height: 270px;
+    }
+
+}

@@ -1,0 +1,346 @@
+.navbar {
+    background-image: url(image/header-m.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+
+}
+
+.container-title {
+    position: absolute;
+    top: 0px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.title2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.cta-margin {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btn-cta {
+    background-color: rgb(0, 115, 255);
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+
+
+}
+
+.container-layanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-layanan-custom {
+    margin-top: 40px;
+
+}
+
+.container-tentang {
+    background-image: url(image/mid-m.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+
+.text-tentang {
+    padding-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text-tentang2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-produk {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-header-produk {
+    color: #08203c;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.container-produk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-margin {
+    margin-top: 30px;
+
+}
+
+.container-kontak {
+    background-image: url(image/mid-2-m.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.title-kontak {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.text-kontak {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+.text-telepon {
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.text-alamat {
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 230px;
+}
+
+.container-rekening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.container-google-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.iframe-google-maps {
+    width: 290px;
+    height: 290px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.container-footer {
+    background-image: url(image/footer-m.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+.container-copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-copyright {
+    margin-top: 100px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+@media only screen and (orientation: landscape) {
+    .navbar {
+        background-image: url(image/header-hd.png);
+        height: 500px;
+
+    }
+
+    .container-layanan {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-layanan-custom {
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 470px;
+
+    }
+
+    .container-title {
+        margin-left: 240px;
+        width: 1020px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .title2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .container-tentang {
+        background-image: url(image/mid-hd.png);
+        height: 720px;
+
+    }
+
+    .box-tentang {
+        padding-top: 90px;
+        margin-left: 240px;
+        width: 1020px;
+    }
+
+    .text-tentang {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .text-tentang2 {
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .text-header-produk {
+        font-size: 45px;
+    }
+
+    .center-container-produk {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-produk {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1020px;
+    }
+
+    .card-margin {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 470px;
+    }
+
+    .container-kontak {
+        background-image: url(image/mid-2-hd.png);
+        height: 770px;
+    }
+
+    .box-kontak {
+        padding-top: 100px;
+        margin-left: 240px;
+        width: 1020px;
+    }
+
+    .title-kontak {
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 80px;
+    }
+
+    .text-kontak {
+        font-size: 30px;
+        font-weight: 600px;
+    }
+
+    .container-rekening {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1020px;
+    }
+
+    .iframe-google-maps {
+        width: 1000px;
+        height: 510px;
+    }
+
+    .container-footer {
+        margin-top: 50px;
+        background-image: url(image/footer-hd.png);
+        height: 280px;
+    }
+
+    .container-copyright {
+        padding-top: 110px;
+    }
+
+    .text-copyright {
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+    }
+
+}

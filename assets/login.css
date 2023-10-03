@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, rgba(142, 45, 226, 1) 50%, rgba(74, 0, 224, 1) 100%);
+    background-image: linear-gradient(to right, #8E2DE2, #4A00E0);
 }
 
 .container-vh {
@@ -59,12 +59,6 @@ body {
     margin-top: 25px;
 }
 
-/* Admin */
-
-nav {
-    background-color: rgb(0, 115, 255);
-    width: 80px;
-}
 
 
 @media only screen and (orientation: landscape) {
